@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: rgb(136, 140, 177);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(54, 56, 73);
+}
+
+.item  {
+  padding: 20px;
+}
+
+.nav {
+  background-color: #ffffff;
+
+  margin: 20px 20px 0 0;
+  padding: 25px;
+  grid-area: nav;
+  border-radius: 7px;
+}

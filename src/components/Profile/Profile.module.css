@@ -1,0 +1,22 @@
+.content {
+  margin: 20px 0px 0px 0px;
+  background-color: #ffffff;
+  color: rgb(136, 140, 177);
+  grid-area: main;
+  border-radius: 7px;
+}
+
+.content img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.description {
+  font-family: serif;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+.posts {
+  margin: 20px;
+}
