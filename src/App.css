@@ -1,21 +1,28 @@
 body {
-  background-color: rgb(233, 239, 244);
-  font-family: Arial;
+    background-color: rgb(233, 239, 244);
+    font-family: Arial;
 }
 
 .app-wrapper {
-  margin: auto;
-  display: grid;
-  width: 1200px;
+    margin: auto;
+    display: grid;
+    width: 1200px;
 
-  grid-template-areas: "header header header" "nav main main" "footer footer footer";
-  grid-template-rows: 375px 1fr;
-  grid-template-columns: 2fr 10fr;
-  font-size: 20px;
-  color: #40ac9d;
-  text-align: center;
+    grid-template-areas: "header header header" "nav main main" "footer footer footer";
+    grid-template-rows: 375px 1fr;
+    grid-template-columns: 2fr 10fr;
+    font-size: 20px;
+    color: #40ac9d;
+    text-align: center;
 }
 
+.app-wrapper-content {
+    margin: 20px 0px 0px 0px;
+    background-color: #ffffff;
+    color: rgb(136, 140, 177);
+    grid-area: main;
+    border-radius: 7px;
+}
 
 
 

@@ -5,21 +5,21 @@ import classes from "./Navigation.module.css";
 
 const Navigation = () => {
   return (
-    <nav className={ classes.nav }>
-      <div className={ classes.item }>
-        <a href="#v">Профиль</a>
+    <nav className={classes.nav}>
+      <div className={classes.item}>
+        <a href="/profile">Профиль</a>
       </div>
-      <div className={ classes.item }>
-        <a href="#v">Сообщения </a>
+      <div className={classes.item}>
+        <a href="/message">Сообщения </a>
       </div>
-      <div className={ classes.item }>
-        <a href="#v">Новости</a>
+      <div className={classes.item}>
+        <a href="/news">Новости</a>
       </div>
-      <div className={ classes.item }>
-        <a href="#v">Музыка</a>
+      <div className={classes.item}>
+        <a href="/music">Музыка</a>
       </div>
-      <div className={ classes.item }>
-        <a href="#v">Настройки</a>
+      <div className={classes.item}>
+        <a href="/settings">Настройки</a>
       </div>
     </nav>
   );

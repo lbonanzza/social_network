@@ -4,18 +4,18 @@ import classes from "./Profile.module.css";
 
 const Profile = () => {
   return (
-    <div className={ classes.content }>
+    <div>
 
       <div>
         <img
           src=" https://about.canva.com/wp-content/uploads/sites/3/2018/03/Purple-and-Pink-Cute-Man-Face-Laptop-Sticker.jpg"
         />
       </div>
-      <div className={ classes.description }>
+      <div className={classes.description}>
         Lorem ipsum dolor sit amet, consectetur adipisicing.
       </div>
       <span>Мои Посты</span>
-      <div className={ classes.posts }>
+      <div className={classes.posts}>
         <div>
           <textarea placeholder="Что нового?.."></textarea>
         </div>
