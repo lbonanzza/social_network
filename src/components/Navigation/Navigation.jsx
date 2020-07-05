@@ -6,7 +6,7 @@ import classes from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <nav className={ classes.nav }>
-      <div className="item">
+      <div className={ classes.item }>
         <a href="#v">Профиль</a>
       </div>
       <div className={ classes.item }>
