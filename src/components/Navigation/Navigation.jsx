@@ -1,25 +1,26 @@
 import React from "react";
 import "./Navigation.module.css";
 import classes from "./Navigation.module.css";
+import {NavLink} from "react-router-dom";
 
 
 const Navigation = () => {
   return (
     <nav className={classes.nav}>
       <div className={classes.item}>
-        <a href="/profile">Профиль</a>
+        <NavLink to="/profile">Профиль</NavLink>
       </div>
       <div className={classes.item}>
-        <a href="/dialogs">Сообщения </a>
+        <NavLink to="/dialogs">Сообщения </NavLink>
       </div>
       <div className={classes.item}>
-        <a href="/news">Новости</a>
+        <NavLink to="/news">Новости</NavLink>
       </div>
       <div className={classes.item}>
-        <a href="/music">Музыка</a>
+        <NavLink to="/music">Музыка</NavLink>
       </div>
       <div className={classes.item}>
-        <a href="/settings">Настройки</a>
+        <NavLink to="/settings">Настройки</NavLink>
       </div>
     </nav>
   );
